@@ -80,7 +80,7 @@ export function Navbar() {
             </div>
 
             <div className="bg-[#E1A325] w-[340px] h-[65px] rounded-[12px] p-5 flex items-center ">
-              <h1 className="text-[30px] font-grotesk font-bold leading-[110%] tracking-[-8%] text-center align-center text-[#2D2006]">2 Days : <span className="font-light text-[30px] leading-[160%]  tracking-[-1.55%]"> 12 min : 33 s</span></h1>
+              <h1 className="text-[30px] font-grotesk font-bold leading-[110%] tracking-[-8%] text-center align-center text-[#FFFFFF]">2 Days : <span className="font-light text-[30px] leading-[160%]  tracking-[-1.55%]"> 12 min : 33 s</span></h1>
             </div>
 
             <div className="flex justify-end ">
