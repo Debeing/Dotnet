@@ -4,14 +4,14 @@ export default function WhyCome() {
   return (
     <div  className=' max-w-6xl mx-auto mt-10 mb-[100px]'>
         <div className="items-center w-full justify-between z-10 bg-white/95 px-4">
-        <div className="w-[528px] mb-12">
-            <h2 className="text-[44px] font-grotesk">
+            <div className="w-[528px] mb-12">
+            <h2 className="text-[40px] font-grotesk">
                 Why come, <span className="text-[#512BD4] font-bold leading-[110%] tracking-[-8%] ">why now?</span>
             </h2>
             <p className="font-lenx text-[15px] leading-[140%] font-light">Much more than a conference, it is a learning experience, a chance to <br />
                     share and discover opportunities that can transform your career.</p>
-        </div>
-        <div className="  justify-center mt-5 grid
+            </div>
+            <div className="  justify-center mt-5 grid
                  grid-cols-4 divide-x text-justify gap-2">
                     <div className="px-4">
                         <div className="text-[#512BD4] ">
@@ -35,7 +35,7 @@ export default function WhyCome() {
                         <h2 className="font-bold font-grotesk text-[20px] leading-[110%] mt-3">Stay up to date</h2>
                         <p>Experts and practitioners reveal the latest developments in .NET, C#, Azure, AI, DevOps, security, and modern architecture.</p>
                     </div>
-                </div>
+            </div>
         </div>
     </div>
   );

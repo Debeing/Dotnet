@@ -1,4 +1,5 @@
 import Archives from "./components/Archives";
+import Contributor from "./components/Contributor";
 import Footer from "./components/Footer";
 import  { Navbar } from "./components/Hero"
 import Planing from "./components/Planing";
@@ -11,7 +12,8 @@ export default function Home() {
     <main>
       <Navbar />
       <WhyCome/>
-      <Planing/>
+       <Planing/>
+      <Contributor/>
       <Archives/>
       <Footer/>
     </main>

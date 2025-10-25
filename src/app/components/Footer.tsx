@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-     <footer className="max-w-6xl mx-auto">
+     <footer className="max-w-6xl mx-auto mt-3">
       <div className="w-[1,240px] h-[252px] t-[5793px] l-[100px] ">
         <div className="flex justify-between w-[1,206.87px] h-[146px] t-[5793px] l-[133,13px]">
           <div className="flex flex-col w-[300px] h-[90px] gap-2 opacity-100">
