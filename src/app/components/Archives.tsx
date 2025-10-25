@@ -39,13 +39,13 @@ export default function Archives() {
         </div>
         <div className="w-full flex flex-nowrap overflow-auto gap-2 mt-5 h-[280px]">
              <div>
-                      <Image className="rounded-2xl h-full w-full" src="/image_1.png" alt="Hero Image" width={346} height={280}/>
+                      <Image className="rounded-2xl h-full w-full" src="/image_3.png" alt="Hero Image" width={346} height={280}/>
                     </div>
                     <div>
                       <Image className="rounded-2xl h-full w-full" src="/image_2.jpg" alt="Hero Image" width={346} height={280} />
                     </div>
                     <div>
-                      <Image className="rounded-2xl h-full w-full" src="/image_3.png" alt="Hero Image" width={346} height={280} />
+                      <Image className="rounded-2xl h-full w-full" src="/image_1.png" alt="Hero Image" width={346} height={280} />
                     </div>
                     <div>
                       <Image className="rounded-2xl h-full w-full" src="/image_5.png" alt="Hero Image" width={346} height={280} />
