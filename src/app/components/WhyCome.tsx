@@ -6,7 +6,7 @@ export default function WhyCome() {
         <div className="items-center w-full justify-between z-10 bg-white/95 px-4">
             <div className="w-[528px] mb-12">
             <h2 className="text-[40px] font-grotesk">
-                Why come, <span className="text-[#512BD4] font-bold leading-[110%] tracking-[-8%] ">why now?</span>
+                Why come, <span className="text-[#512BD4] font-black leading-[110%] tracking-[-8%] ">why now?</span>
             </h2>
             <p className="font-lenx text-[15px] leading-[140%] font-light">Much more than a conference, it is a learning experience, a chance to <br />
                     share and discover opportunities that can transform your career.</p>

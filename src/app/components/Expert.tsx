@@ -2,13 +2,14 @@ import Image from "next/image";
 
 export default function Expert() {
   return (
-    <div className="mt-10 w-wull h-200 bg-[#1F143B]  rounded-2xl">
+    <div className="m-3 w-wull h-200 bg-[#1F143B] mt-10 rounded-2xl">
       <div className="max-w-6xl mx-auto">
         <div className="font-['Space_Grotesk'] font-bold text-[25px] leading-[110%] tracking-[-0.08em]">
           <span className="text-[#FFFFFF]">Renowned experts to</span> <br />
           <span className="text-[#8B6BF8]">inspire you</span>
         </div>
-        <div className="max-w-6xl mx-auto mt-4 flex justify-between">
+        <div className="max-w-6xl mx-auto">
+             <div className="max-w-6xl mx-auto mt-4 flex justify-around">
           <div className="w-48 h-54 bg-[#1F143B] relative">
             <div className="w-48 h-44 rounded-2xl mt-10 bg-[#FFFFFF] relative">
               <Image
@@ -55,7 +56,7 @@ export default function Expert() {
             </div>
           </div>
         </div>
-        <div className="max-w-6xl mx-auto mt-4 flex justify-between">
+        <div className="max-w-6xl mx-auto mt-4 flex justify-around">
           <div className="w-48 h-54 bg-[#1F143B] relative">
             <div className="w-48 h-44 rounded-2xl mt-10 bg-[#FFFFFF] relative">
               <Image
@@ -101,6 +102,7 @@ export default function Expert() {
               />
             </div>
           </div>
+        </div>
         </div>
       </div>
     </div>
