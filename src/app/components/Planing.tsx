@@ -6,7 +6,7 @@ export default function Menu() {
         <div className="max-w-6xl mx-auto mt-16">
             <div className="ml-10 w-[450px]">
                 <div className="w-full p-0">
-                    <h1 className="font-grotesk text-[40px] text-[#1F143B] font-bold">An immersive day in 
+                    <h1 className="font-grotesk text-[40px] text-[#1F143B] font-bold leading-none">An immersive day in 
                         the world of .NET
                     </h1>
                 </div>

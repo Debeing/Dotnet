@@ -18,7 +18,7 @@ export default function Contributor() {
           <div className="px-4">
             <div className="">
               <Image
-                className=""
+                className="grayscale"
                 src="/next.png"
                 alt="Hero Image"
                 width={40}
@@ -31,7 +31,7 @@ export default function Contributor() {
           <div className="px-4">
             <div className="">
               <Image
-                className=""
+                className="grayscale"
                 src="/packt.png"
                 alt="Hero Image"
                 width={115}
@@ -44,7 +44,7 @@ export default function Contributor() {
           <div className="px-4">
             <div className="">
               <Image
-                className=""
+                className="grayscale"
                 src="/expand.png"
                 alt="Hero Image"
                 width={39}
@@ -57,7 +57,7 @@ export default function Contributor() {
           <div className="px-4">
             <div className="">
               <Image
-                className=""
+                className="grayscale"
                 src="/examboot.png"
                 alt="Hero Image"
                 width={168}
@@ -75,7 +75,7 @@ export default function Contributor() {
             <div className="px-4">
             <div className="">
               <Image
-                className=""
+                className="grayscale"
                 src="/lagenceyop.png"
                 alt="Hero Image"
                 width={135}
@@ -88,7 +88,7 @@ export default function Contributor() {
           <div className="px-4">
             <div className="">
               <Image
-                className=""
+                className="grayscale"
                 src="/techcom.png"
                 alt="Hero Image"
                 width={63}
@@ -101,7 +101,7 @@ export default function Contributor() {
           <div className="px-4">
             <div className="">
               <Image
-                className=""
+                className="grayscale"
                 src="/codec.png"
                 alt="Hero Image"
                 width={43}
@@ -114,7 +114,7 @@ export default function Contributor() {
           <div className="px-4">
             <div className="">
               <Image
-                className=""
+                className="grayscale"
                 src="/packt2.png"
                 alt="Hero Image"
                 width={115}
