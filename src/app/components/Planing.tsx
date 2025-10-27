@@ -3,7 +3,7 @@
 
 export default function Menu() {
     return (
-        <div className="max-w-7xl mt-16">
+        <div className="max-w-6xl mx-auto mt-16">
             <div className="ml-10 w-[450px]">
                 <div className="w-full p-0">
                     <h1 className="font-grotesk text-[40px] text-[#1F143B] font-bold">An immersive day in 
@@ -50,7 +50,7 @@ export default function Menu() {
                         </span>
                         </p>
                     </div>
-                    <h4 className="font-bold text-[15px] mt-0.5">1. Keynote</h4>
+                    <h4 className="font-bold text-[15px] mt-6">1. Keynote</h4>
                     <p className="font-[Lexend] font-light text-[14px] leading-[140%] tracking-normal ">
                         Doriane Mangamtcheuth Analyste M365 | Power Platform | Microsoft Dynamics 365
                     </p>
