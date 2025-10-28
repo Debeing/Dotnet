@@ -10,22 +10,31 @@ export default function Expert() {
         </div>
         <div className="max-w-6xl mx-auto ">
           <div className="max-w-6xl mx-auto mt-4  grid grid-cols-4 gap-6">
-            <div className=" h-54 bg-[#1F143B] relative">
-              <div className=" h-44 rounded-2xl mt-10 bg-[#FFFFFF] relative">
+            <div className=" h-80 bg-[#1F143B] relative">
+              <div className=" h-70 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
-                  className="absolute -top-7 left-2 border-2 h-15 w-15 rounded-2xl"
+                  className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
                   src="/expert1.png"
                   alt="Hero Image"
                   width={100}
                   height={100}
                 />
               </div>
-              {/* <h1 className="absolute top-20 ml-2 text-['Space_Grotesk'] font-bold">Jean-Marc ONANA</h1> */}
+              <div className="w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
+                <h1 className=" top-20 ml-2 font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Jean-Marc ONANA</h1>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[14px]">Principal Solution Architect</p>
+                <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">. 15+ years of .NET experience</p>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">. Microsoft MVP for 8 years</p>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">. Author of 3 books on software architecture</p>
+                <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">Session: &quot;Revolutionize your applications with .NET 9 and AI &quot;</p>
+              </div>
             </div>
             <div className="h-54 bg-[#1F143B] relative">
-              <div className=" h-44 rounded-2xl mt-10 bg-[#FFFFFF] relative">
+              <div className=" h-50 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
-                  className="absolute -top-7 left-2 border-2 h-15 w-15 rounded-2xl"
+                  className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
                   src="/expert2.png"
                   alt="Hero Image"
                   width={100}
@@ -34,9 +43,9 @@ export default function Expert() {
               </div>
             </div>
             <div className="h-54 bg-[#1F143B] relative">
-              <div className="h-44 rounded-2xl mt-10 bg-[#FFFFFF] relative">
+              <div className="h-50 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
-                  className="absolute -top-7 left-2 border-2 h-15 w-15 rounded-2xl"
+                  className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
                   src="/expert3.png"
                   alt="Hero Image"
                   width={100}
@@ -45,9 +54,9 @@ export default function Expert() {
               </div>
             </div>
             <div className="h-54 bg-[#1F143B] relative">
-              <div className="h-44 rounded-2xl mt-10 bg-[#FFFFFF] relative">
+              <div className="h-50 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
-                  className="absolute -top-7 left-2 border-2 h-15 w-15 rounded-2xl"
+                  className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
                   src="/expert4.png"
                   alt="Hero Image"
                   width={100}
@@ -58,9 +67,9 @@ export default function Expert() {
           </div>
           <div className="max-w-6xl mx-auto mt-4 grid grid-cols-4 gap-6">
             <div className=" h-54 bg-[#1F143B] relative">
-              <div className=" h-44 rounded-2xl mt-10 bg-[#FFFFFF] relative">
+              <div className=" h-50 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
-                  className="absolute -top-7 left-2 border-2 h-15 w-15 rounded-2xl"
+                  className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
                   src="/expert5.png"
                   alt="Hero Image"
                   width={100}
@@ -69,9 +78,9 @@ export default function Expert() {
               </div>
             </div>
             <div className=" h-54 bg-[#1F143B] relative">
-              <div className=" h-44 rounded-2xl mt-10 bg-[#FFFFFF] relative">
+              <div className=" h-50 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
-                  className="absolute -top-7 left-2 border-2 h-15 w-15 rounded-2xl"
+                  className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
                   src="/expert6.png"
                   alt="Hero Image"
                   width={100}
@@ -80,9 +89,9 @@ export default function Expert() {
               </div>
             </div>
             <div className=" h-54 bg-[#1F143B] relative">
-              <div className=" h-44 rounded-2xl mt-10 bg-[#FFFFFF] relative">
+              <div className=" h-50 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
-                  className="absolute -top-7 left-2 border-2 h-15 w-15 rounded-2xl"
+                  className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
                   src="/expert7.png"
                   alt="Hero Image"
                   width={100}
@@ -91,9 +100,9 @@ export default function Expert() {
               </div>
             </div>
             <div className=" h-54 bg-[#1F143B] relative">
-              <div className=" h-44 rounded-2xl mt-10 bg-[#FFFFFF] relative">
+              <div className=" h-50 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
-                  className="absolute -top-7 left-2 border-2 h-15 w-15 rounded-2xl"
+                  className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
                   src="/expert8.png"
                   alt="Hero Image"
                   width={100}
@@ -161,9 +170,9 @@ export default function Expert() {
         </div>
          <div className="max-w-6xl mx-auto mt-4 grid grid-cols-4 gap-6">
             <div className=" h-54 bg-[#1F143B] relative">
-              <div className=" h-44 rounded-2xl mt-10 bg-[#FFFFFF] relative">
+              <div className=" h-50 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
-                  className="absolute -top-7 left-2 border-2 h-15 w-15 rounded-2xl"
+                  className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
                   src="/expert5.png"
                   alt="Hero Image"
                   width={100}
@@ -172,9 +181,9 @@ export default function Expert() {
               </div>
             </div>
             <div className=" h-54 bg-[#1F143B] relative">
-              <div className="h-44 rounded-2xl mt-10 bg-[#FFFFFF] relative">
+              <div className="h-50 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
-                  className="absolute -top-7 left-2 border-2 h-15 w-15 rounded-2xl"
+                  className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
                   src="/expert6.png"
                   alt="Hero Image"
                   width={100}
@@ -183,9 +192,9 @@ export default function Expert() {
               </div>
             </div>
             <div className=" h-54 bg-[#1F143B] relative">
-              <div className=" h-44 rounded-2xl mt-10 bg-[#FFFFFF] relative">
+              <div className=" h-50 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
-                  className="absolute -top-7 left-2 border-2 h-15 w-15 rounded-2xl"
+                  className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
                   src="/expert7.png"
                   alt="Hero Image"
                   width={100}
@@ -194,9 +203,9 @@ export default function Expert() {
               </div>
             </div>
             <div className=" h-54 bg-[#1F143B] relative">
-              <div className=" h-44 rounded-2xl mt-10 bg-[#FFFFFF] relative">
+              <div className=" h-50 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
-                  className="absolute -top-7 left-2 border-2 h-15 w-15 rounded-2xl"
+                  className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
                   src="/expert8.png"
                   alt="Hero Image"
                   width={100}
