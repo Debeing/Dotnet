@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Expert() {
   return (
-    <div className="m-3 w-wull h-365 bg-[#1F143B] mt-10 rounded-2xl">
+    <div className="m-3 w-wull h-440 bg-[#1F143B] mt-10 rounded-2xl">
       <div className="max-w-6xl mx-auto">
         <div className="font-['Space_Grotesk'] font-bold text-[25px] leading-[110%] tracking-[-0.08em]">
           <span className="text-[#FFFFFF]">Renowned experts to</span> <br />
@@ -28,11 +28,11 @@ export default function Expert() {
                 <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">. Microsoft MVP for 8 years</p>
                 <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">. Author of 3 books on software architecture</p>
                 <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
-                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">Session: &quot;Revolutionize your applications with .NET 9 and AI &quot;</p>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">Session: &quot;Revolutionize your applications with .NET 9 and AI&quot;</p>
               </div>
             </div>
-            <div className="h-54 bg-[#1F143B] relative">
-              <div className=" h-50 rounded-2xl mt-10 bg-[#FFFFFF] relative">
+            <div className="h-80 bg-[#1F143B] relative">
+              <div className=" h-70 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
                   className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
                   src="/expert2.png"
@@ -41,9 +41,19 @@ export default function Expert() {
                   height={100}
                 />
               </div>
+              <div className="w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
+                <h1 className=" top-20 ml-2 font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Thomas NKUISSI</h1>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[14px]">Principal Solution Architect</p>
+                <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">. 15+ years of .NET experience</p>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">. Microsoft MVP for 8 years</p>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">. Author of 3 books on software architecture</p>
+                <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">Session: &quot;Revolutionize your applications with .NET 9 and AI&quot;</p>
+              </div>
             </div>
-            <div className="h-54 bg-[#1F143B] relative">
-              <div className="h-50 rounded-2xl mt-10 bg-[#FFFFFF] relative">
+            <div className="h-80 bg-[#1F143B] relative">
+              <div className="h-70 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
                   className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
                   src="/expert3.png"
@@ -52,9 +62,19 @@ export default function Expert() {
                   height={100}
                 />
               </div>
+              <div className="w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
+                <h1 className=" top-20 ml-2 font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Georges FOTSO</h1>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[14px]">Principal Solution Architect</p>
+                <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">. 15+ years of .NET experience</p>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">. Microsoft MVP for 8 years</p>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">. Author of 3 books on software architecture</p>
+                <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">Session: &quot;Revolutionize your applications with .NET 9 and AI&quot;</p>
+              </div>
             </div>
-            <div className="h-54 bg-[#1F143B] relative">
-              <div className="h-50 rounded-2xl mt-10 bg-[#FFFFFF] relative">
+            <div className="h-80 bg-[#1F143B] relative">
+              <div className="h-70 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
                   className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
                   src="/expert4.png"
@@ -63,11 +83,21 @@ export default function Expert() {
                   height={100}
                 />
               </div>
+              <div className="w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
+                <h1 className=" top-20 ml-2 font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Paul MBARGA</h1>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[14px]">Principal Solution Architect</p>
+                <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">. 15+ years of .NET experience</p>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">. Microsoft MVP for 8 years</p>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">. Author of 3 books on software architecture</p>
+                <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">Session: &quot;Revolutionize your applications with .NET 9 and AI&quot;</p>
+              </div>
             </div>
           </div>
           <div className="max-w-6xl mx-auto mt-4 grid grid-cols-4 gap-6">
-            <div className=" h-54 bg-[#1F143B] relative">
-              <div className=" h-50 rounded-2xl mt-10 bg-[#FFFFFF] relative">
+            <div className=" h-80 bg-[#1F143B] relative">
+              <div className=" h-70 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
                   className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
                   src="/expert5.png"
@@ -76,9 +106,19 @@ export default function Expert() {
                   height={100}
                 />
               </div>
+              <div className="w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
+                <h1 className=" top-20 ml-2 font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Georges FOTSO</h1>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[14px]">Principal Solution Architect</p>
+                <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">. 15+ years of .NET experience</p>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">. Microsoft MVP for 8 years</p>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">. Author of 3 books on software architecture</p>
+                <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">Session: &quot;Revolutionize your applications with .NET 9 and AI&quot;</p>
+              </div>
             </div>
-            <div className=" h-54 bg-[#1F143B] relative">
-              <div className=" h-50 rounded-2xl mt-10 bg-[#FFFFFF] relative">
+            <div className=" h-80 bg-[#1F143B] relative">
+              <div className=" h-70 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
                   className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
                   src="/expert6.png"
@@ -87,9 +127,19 @@ export default function Expert() {
                   height={100}
                 />
               </div>
+              <div className="w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
+                <h1 className=" top-20 ml-2 font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Paul MBARGA</h1>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[14px]">Principal Solution Architect</p>
+                <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">. 15+ years of .NET experience</p>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">. Microsoft MVP for 8 years</p>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">. Author of 3 books on software architecture</p>
+                <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">Session: &quot;Revolutionize your applications with .NET 9 and AI&quot;</p>
+              </div>
             </div>
-            <div className=" h-54 bg-[#1F143B] relative">
-              <div className=" h-50 rounded-2xl mt-10 bg-[#FFFFFF] relative">
+            <div className=" h-80 bg-[#1F143B] relative">
+              <div className=" h-70 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
                   className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
                   src="/expert7.png"
@@ -98,9 +148,19 @@ export default function Expert() {
                   height={100}
                 />
               </div>
+              <div className="w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
+                <h1 className=" top-20 ml-2 font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Jean-Marc ONANA</h1>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[14px]">Principal Solution Architect</p>
+                <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">. 15+ years of .NET experience</p>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">. Microsoft MVP for 8 years</p>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">. Author of 3 books on software architecture</p>
+                <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">Session: &quot;Revolutionize your applications with .NET 9 and AI&quot;</p>
+              </div>
             </div>
-            <div className=" h-54 bg-[#1F143B] relative">
-              <div className=" h-50 rounded-2xl mt-10 bg-[#FFFFFF] relative">
+            <div className=" h-80 bg-[#1F143B] relative">
+              <div className=" h-70 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
                   className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
                   src="/expert8.png"
@@ -108,6 +168,16 @@ export default function Expert() {
                   width={100}
                   height={100}
                 />
+              </div>
+              <div className="w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
+                <h1 className=" top-20 ml-2 font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Thomas NKUISSI</h1>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[14px]">Principal Solution Architect</p>
+                <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">. 15+ years of .NET experience</p>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">. Microsoft MVP for 8 years</p>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">. Author of 3 books on software architecture</p>
+                <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">Session: &quot;Revolutionize your applications with .NET 9 and AI&quot;</p>
               </div>
             </div>
           </div>
@@ -169,48 +239,72 @@ export default function Expert() {
           <span className="text-[#FFFFFF]">Core team</span>
         </div>
          <div className="max-w-6xl mx-auto mt-4 grid grid-cols-4 gap-6">
-            <div className=" h-54 bg-[#1F143B] relative">
-              <div className=" h-50 rounded-2xl mt-10 bg-[#FFFFFF] relative">
+            <div className=" h-80 bg-[#1F143B] relative">
+              <div className=" h-60 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
                   className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
-                  src="/expert5.png"
+                  src="/jaures.png"
                   alt="Hero Image"
                   width={100}
                   height={100}
                 />
               </div>
+               <div className="w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
+                <h1 className=" top-20 ml-2 font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Jaures Beinjamin Fotsing</h1>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[14px]">Software developer</p>
+                <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+              </div>
             </div>
-            <div className=" h-54 bg-[#1F143B] relative">
-              <div className="h-50 rounded-2xl mt-10 bg-[#FFFFFF] relative">
+            <div className=" h-80 bg-[#1F143B] relative">
+              <div className="h-60 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
                   className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
-                  src="/expert6.png"
+                  src="/che.png"
                   alt="Hero Image"
                   width={100}
                   height={100}
                 />
               </div>
+              <div className="w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
+                <h1 className=" top-20 ml-2 font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Djoufson CHE BENE</h1>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[14px]">Software Engineer</p>
+                <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+              </div>
             </div>
-            <div className=" h-54 bg-[#1F143B] relative">
-              <div className=" h-50 rounded-2xl mt-10 bg-[#FFFFFF] relative">
+            <div className=" h-80 bg-[#1F143B] relative">
+              <div className=" h-60 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
                   className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
-                  src="/expert7.png"
+                  src="/yvan.png"
                   alt="Hero Image"
                   width={100}
                   height={100}
                 />
               </div>
+              <div className="w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
+                <h1 className=" top-20 ml-2 font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Yvan MEGNEMO</h1>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[14px]">Software Engineer</p>
+                <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+              </div>
             </div>
-            <div className=" h-54 bg-[#1F143B] relative">
-              <div className=" h-50 rounded-2xl mt-10 bg-[#FFFFFF] relative">
+            <div className=" h-80 bg-[#1F143B] relative">
+              <div className=" h-60 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
                   className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
-                  src="/expert8.png"
+                  src="/cedric.png"
                   alt="Hero Image"
                   width={100}
                   height={100}
                 />
+              </div>
+              <div className="w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
+                <h1 className=" top-20 ml-2 font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Stephane Cedric Noumbo</h1>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[14px]">Software Engineer</p>
+                <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
+                <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[16px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
               </div>
             </div>
           </div>
