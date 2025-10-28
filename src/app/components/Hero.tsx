@@ -33,7 +33,7 @@ export function Navbar() {
           </div>
         </div>
 
-      <div className="mt-16  grid grid-cols-2 items-center">
+      <div className="mt-16  grid grid-cols-2 items-center ">
         {/* Right */}
         <div className="max-w-[600px]">
           <span className="border rounded-24 p-1 leading-[120%] font-light font-lenx size-6 w-fit">Must-attend tech event for the Microsoft Ecosystem in Cameroon</span>
