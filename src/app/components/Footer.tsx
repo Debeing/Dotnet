@@ -1,102 +1,88 @@
-import Link from "next/link";
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
+
+
 
 export default function Footer() {
   return (
-    <footer className="max-w-6xl mx-auto mt-10 px-6">
-      {/* Section principale */}
-      <div className="flex flex-col md:flex-row justify-between gap-10 md:gap-20">
-        
-        {/* Logo + description */}
-        <div className="flex flex-col w-full md:w-[300px] gap-3">
-          <Link href="/">
-            <Image
-              src="/logo.png"
-              alt="logo du site"
-              width={72}
-              height={34}
-              className="opacity-100"
-            />
-          </Link>
-          <p className="font-[Lexend] font-light text-[14px] leading-[120%] text-[#575362]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
+    <footer className="max-w-7xl mx-auto mt-20 lg:px-8 divide-y">
+      <div className="flex gap-[98px]">
+        <div className="max-w-[300px]">
+          <figure>
+          <Image src="/logo.png" width={100} height={100} alt="Logo"/>
+          </figure>
+          <p className="font-lenx font-light leading-[120%] ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
-
-        {/* Grille des colonnes */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-30 w-full md:w-auto">
-          {/* Navigation */}
-          <div>
-            <h3 className="font-bold mb-3">Navigation</h3>
-            <ul className="space-y-1">
+        <div className="flex gap-20 mb-[71px]">
+          <div className=" mt-7">
+            <span className="font-bold font-grotesk">Navigation</span>
+            <ul className="font-lenx text-[14px] space-y-2 font-light mt-4">
               <li>
-                <Link
-                  href="/"
-                  className="font-[Lexend] font-light text-[14px] leading-[120%] text-[#575362] no-underline hover:text-[#0A855F]"
-                >
-                  Home
-                </Link>
+                <Link href="/">Home</Link>
               </li>
-              <li className="font-[Lexend] font-light text-[14px] text-[#575362]">
-                Events
+              <li>
+                <Link href="/">Events</Link>
               </li>
-              <li className="font-[Lexend] font-light text-[14px] text-[#575362]">
-                About us
+              <li>
+                <Link href="/">About us</Link>
               </li>
-              <li className="font-[Lexend] font-light text-[14px] text-[#575362]">
-                Projects
+              <li>
+                <Link href="/">Projects</Link>
               </li>
-              <li className="font-[Lexend] font-light text-[14px] text-[#575362]">
-                Resources
+              <li>
+                <Link href="/">Resources</Link>
+              </li>
+            </ul>
+          </div>
+          <div className=" mt-7 shrink-0">
+            <span className="font-bold font-grotesk">Contacts</span>
+            <ul className="font-lenx text-[14px] space-y-2 font-light mt-4">
+              <li>
+                <Link href=" ">Douala, Cameroon</Link>
+              </li>
+              <li>
+                <Link href=" ">dotnetcameroon@outlook.com</Link>
+              </li>
+              <li>
+                <Link href=" ">+237 699254549, +237 653953452</Link>
               </li>
             </ul>
           </div>
 
-          {/* Contacts */}
+          <div className=" mt-7">
+            <span className="font-bold font-grotesk">Social</span>
+            <ul className="font-lenx text-[14px] space-y-2 font-light mt-4">
+              <li>
+                <Link href="">Discord</Link>
+              </li>
+              <li>
+                <Link href="">WhatsApp</Link>
+              </li>
+              <li>
+                <Link href="">LinkedIn</Link>
+              </li>
+              <li>
+                <Link href="">Telegram</Link>
+              </li>
+              <li>
+                <Link href="">GitHub</Link>
+              </li>
+            </ul>
+          </div>
           <div>
-            <h3 className="font-bold mb-3">Contacts</h3>
-            <ul className="space-y-1  text-[#575362]">
-              <li>Douala, Cameroon</li>
-              <li>dotnetcameroon@outlook.com</li>
-              <li>+237 699254549, +237 653953452</li>
-            </ul>
+            <div className="flex flex-col gap-4 items-center  font-grotesk">
+              <Button className="bg-[#0A855F] w-[195px] h-[50px] font-bold font-grotesk text-[16px] leading-[160%]">Contact-us</Button>
+              <Button variant={'outline'} className="w-[195px] h-[50px] font-bold font-grotesk text-[16px] leading-[160%]">Share event</Button>      
           </div>
-
-          {/* Social */}
-          <div>
-            <h3 className="font-bold mb-3">Social</h3>
-            <ul className="space-y-1 text-[#575362]">
-              <li>Discord</li>
-              <li>WhatsApp</li>
-              <li>LinkedIn</li>
-              <li>Telegramme</li>
-              <li>GitHub</li>
-            </ul>
-          </div>
-
-          {/* Boutons */}
-          <div className="flex flex-col gap-4 mt-5">
-            <button className="w-full md:w-[190px] h-[50px] rounded-[13px] bg-[#0A855F] text-white font-['Space_Grotesk'] text-[16px] font-semibold">
-              Subscribe to event
-            </button>
-            <button className="w-full md:w-[190px] h-[50px] rounded-[13px] border border-[#DDDDDD] bg-white font-bold text-[14px]">
-              Share event
-            </button>
           </div>
         </div>
       </div>
-
-      {/* Ligne de séparation */}
-      <div className="border-t border-[#DDDDDD] my-8"></div>
-
-      {/* Bas de page */}
-      <div className="flex justify-center items-center text-center font-[Lexend] font-light text-[14px] text-[#575362]">
+      <div className="p-5 items-center justify-center flex border-[#DDDDDD]">
         <p>
-          Copyright © .NET Cameroun 2025 | Designed by
-          <span className="font-bold ml-1">Lagence YOP</span>
+            Copyright © .NET Cameroun 2025 | Designed by<span className="font-bold "> Lagence YOP</span>
         </p>
       </div>
     </footer>
-  );
+  )
 }
