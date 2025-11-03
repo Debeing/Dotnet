@@ -1,40 +1,9 @@
-import Link from "next/link";
+import React from 'react'
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
-import { ChevronDown } from "lucide-react";
 
-export function Navbar() {
+function Hero() {
   return (
-    <>
-    <header className=" max-w-6xl mx-auto">
-        <div className=" flex items-center gap-2.5 w-full justify-between z-10 bg-white/95 px-4 ">
-          {/* Logo (left) */}
-          <div className=" ">
-            <Link href="/" className="text-lg font-bold inline-flex items-center">
-              <Image src="/logo.png" alt="Logo" width={72} height={34} />
-            </Link>
-          </div>
-
-          {/* Centered Navigation */}
-          <nav className=" justify-center gap-6 flex text-sm font-lenx">
-            <Link href="/" className="font-bold">Home</Link>
-            <Link href="/event">Events</Link>
-            <Link href="/about">About us</Link>
-            <Link href="/project">Projects</Link>
-            <Link href="/resource">Resources</Link>
-          </nav>
-
-          <div className="flex items-center font-grotesk">
-            <Button variant={'outline'}>Contact-us</Button>
-            <div className="flex items-center ml-2 cursor-pointer font-space-grotesk leading-[160%] text-center tracking-[0%">
-              <span>English</span>
-              <ChevronDown className="ml-1"/>
-            </div>
-          </div>
-        </div>
-
-      <div className="mt-16  grid grid-cols-2 items-center ">
-        {/* Right */}
+   <div className=" max-w-6xl mx-auto mt-16  grid grid-cols-2 items-center ">
         <div className="max-w-[600px]">
           <span className="border rounded-24 p-1 leading-[120%] font-light font-lenx size-6 w-fit">Must-attend tech event for the Microsoft Ecosystem in Cameroon</span>
           <h1 className="font-grotesk font-bold leading-[110%] tracking-[-8%] text-[40px] mt-0.5 ">
@@ -43,8 +12,6 @@ export function Navbar() {
           <p className="font-light font-lenx leading-[140%] tracking-normal">
             Join hundreds of passionate developers for a day dedicated to the .NET ecosystem. Share your experiences and let&apos;s build the future of development together.
           </p>
-
-          
           <div className="flex  mt-[35px]">
             <div className="pr-4 ">
               <span className="text-[18px] leading-[160%] tracking-normal text-[#512BD4] font-bold">100 places</span>
@@ -89,8 +56,7 @@ export function Navbar() {
           </div>
         </div>
       </div>
-    </header>
-    {/* Images */}
-    </>
-  );
+  )
 }
+
+export default Hero

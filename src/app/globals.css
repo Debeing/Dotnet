@@ -128,3 +128,7 @@
   font-weight:weight;
   font-style: normal;
 }
+.no-scrollbar::-webkit-scrollbar{
+  display:none;
+  
+}
