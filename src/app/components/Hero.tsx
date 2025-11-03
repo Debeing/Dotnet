@@ -91,27 +91,6 @@ export function Navbar() {
       </div>
     </header>
     {/* Images */}
-    <div className="w-full flex flex-nowrap overflow-auto gap-2 mt-[100px] h-[362px] ">
-        <div className="w-[300px] h-full ">
-          <Image className="rounded-2xl object-cover  h-full w-full" src="/image_1.png" alt="Hero Image" width={320} height={362}/>
-        </div>
-        <div className="w-[300px] h-full ">
-          <Image className="rounded-2xl object-cover h-full w-full" src="/image_2.jpg" alt="Hero Image" width={320} height={362}/>
-        </div>
-        <div className="w-[300px] h-full ">
-          <Image className="rounded-2xl object-cover h-full w-full" src="/image_3.png" alt="Hero Image" width={320} height={362}/>
-        </div>
-        <div className="w-[300px] h-full ">
-          <Image className="rounded-2xl object-cover h-full w-full" src="/image_6.jpg" alt="Hero Image" width={320} height={362}/>
-        </div>
-        <div className="w-[300px] h-full ">
-          <Image className="rounded-2xl object-cover h-full w-full" src="/image_7.png" alt="Hero Image" width={320} height={362}/>
-        </div>
-        <div className="w-[300px] h-full ">
-          <Image className="rounded-2xl object-cover h-full w-full" src="/image_5.png" alt="Hero Image" width={320} height={362}/>
-        </div>
-        
-      </div>
     </>
   );
 }

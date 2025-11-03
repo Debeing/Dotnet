@@ -4,6 +4,7 @@ import Expert from "./components/Expert";
 import Footer from "./components/Footer";
 import  { Navbar } from "./components/Hero"
 import Planing from "./components/Planing";
+import Teams from "./components/Member";
 import WhyCome from "./components/WhyCome";
 
 
@@ -12,6 +13,7 @@ export default function Home() {
   return (
     <main>
       <Navbar />
+      <Teams />
       <WhyCome/>
        <Planing/>
        <Expert/>
