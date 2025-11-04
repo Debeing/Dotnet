@@ -2,7 +2,7 @@ import { BookOpenText, HandFist, RefreshCcw, UserRound } from "lucide-react";
 
 export default function WhyCome() {
   return (
-    <div className=" max-w-6xl mx-auto mt-10 mb-[100px] ">
+    <div className=" max-w-6xl mx-auto mt-10 mb-[50px] ">
       <div className="items-center w-full justify-between z-10 bg-white/95 px-4">
         <div className="w-[500px]  mb-12 ">
           <h2 className="text-[40px] font-grotesk">

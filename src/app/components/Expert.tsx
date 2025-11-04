@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export default function Expert() {
   return (
-    <div className="m-3 w-wull h-440 bg-[#1F143B] mt-10 rounded-2xl">
+    <div className="m-3 w-wull h-440 bg-[#1F143B] mt-1 rounded-2xl">
       <div className="max-w-6xl mx-auto">
         <div className="font-['Space_Grotesk'] font-bold text-[25px] leading-[110%] tracking-[-0.08em]">
           <span className="text-[#FFFFFF]">Renowned experts to</span> <br />
           <span className="text-[#8B6BF8]">inspire you</span>
         </div>
         <div className="max-w-6xl mx-auto ">
-          <div className="max-w-6xl mx-auto mt-4  grid grid-cols-4 gap-6">
+          <div className="max-w-6xl mx-auto mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             <div className=" h-80 bg-[#1F143B] relative">
               <div className=" h-70 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
@@ -20,7 +20,7 @@ export default function Expert() {
                   height={100}
                 />
               </div>
-              <div className="w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
+              <div className="w-full sm:w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
                 <h1 className=" top-20 ml-2 font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Jean-Marc ONANA</h1>
                 <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[14px]">Principal Solution Architect</p>
                 <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
@@ -41,7 +41,7 @@ export default function Expert() {
                   height={100}
                 />
               </div>
-              <div className="w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
+              <div className="w-full sm:w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
                 <h1 className=" top-20 ml-2 font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Thomas NKUISSI</h1>
                 <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[14px]">Principal Solution Architect</p>
                 <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
@@ -62,7 +62,7 @@ export default function Expert() {
                   height={100}
                 />
               </div>
-              <div className="w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
+              <div className="w-full sm:w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
                 <h1 className=" top-20 ml-2 font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Georges FOTSO</h1>
                 <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[14px]">Principal Solution Architect</p>
                 <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
@@ -83,7 +83,7 @@ export default function Expert() {
                   height={100}
                 />
               </div>
-              <div className="w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
+              <div className="w-full sm:w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
                 <h1 className=" top-20 ml-2 font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Paul MBARGA</h1>
                 <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[14px]">Principal Solution Architect</p>
                 <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
@@ -95,7 +95,7 @@ export default function Expert() {
               </div>
             </div>
           </div>
-          <div className="max-w-6xl mx-auto mt-4 grid grid-cols-4 gap-6">
+          <div className="max-w-6xl mx-auto mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             <div className=" h-80 bg-[#1F143B] relative">
               <div className=" h-70 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
@@ -106,7 +106,7 @@ export default function Expert() {
                   height={100}
                 />
               </div>
-              <div className="w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
+              <div className="w-full sm:w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
                 <h1 className=" top-20 ml-2 font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Georges FOTSO</h1>
                 <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[14px]">Principal Solution Architect</p>
                 <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
@@ -127,7 +127,7 @@ export default function Expert() {
                   height={100}
                 />
               </div>
-              <div className="w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
+              <div className="w-full sm:w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
                 <h1 className=" top-20 ml-2 font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Paul MBARGA</h1>
                 <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[14px]">Principal Solution Architect</p>
                 <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
@@ -238,7 +238,7 @@ export default function Expert() {
         <div className="font-['Space_Grotesk'] font-bold text-[25px] mt-10 leading-[110%] tracking-[-0.08em]">
           <span className="text-[#FFFFFF]">Core team</span>
         </div>
-         <div className="max-w-6xl mx-auto mt-4 grid grid-cols-4 gap-6">
+          <div className="max-w-6xl mx-auto mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             <div className=" h-80 bg-[#1F143B] relative">
               <div className=" h-60 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
@@ -249,7 +249,7 @@ export default function Expert() {
                   height={100}
                 />
               </div>
-               <div className="w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
+               <div className="w-full sm:w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
                 <h1 className=" top-20 ml-2 font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Jaures Beinjamin Fotsing</h1>
                 <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[14px]">Software developer</p>
                 <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
@@ -266,7 +266,7 @@ export default function Expert() {
                   height={100}
                 />
               </div>
-              <div className="w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
+              <div className="w-full sm:w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
                 <h1 className=" top-20 ml-2 font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Djoufson CHE BENE</h1>
                 <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[14px]">Software Engineer</p>
                 <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
@@ -283,7 +283,7 @@ export default function Expert() {
                   height={100}
                 />
               </div>
-              <div className="w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
+              <div className="w-full sm:w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
                 <h1 className=" top-20 ml-2 font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Yvan MEGNEMO</h1>
                 <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[14px]">Software Engineer</p>
                 <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
@@ -300,7 +300,7 @@ export default function Expert() {
                   height={100}
                 />
               </div>
-              <div className="w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
+               <div className="w-full sm:w-[252px] h-[225px] absolute top-20 left-4 right-4 ">
                 <h1 className=" top-20 ml-2 font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Stephane Cedric Noumbo</h1>
                 <p className="ml-2 font-['Lexend']  text-[#404040] font-light text-[14px]">Software Engineer</p>
                 <div className="w-[210px] mt-2 border border-[#DDDDDD]"></div>
