@@ -58,13 +58,13 @@ export default function Hero() {
         
         {/* Right */}
         <div className="sm:{max-w-6xl px-4 } ">
-          <span className="border rounded-3xl p-1 font-light font-lenx ">
+          <span className="border rounded-2xl text-[11px] font-light font-grotesk">
             Must-attend tech event for the Microsoft Ecosystem in Cameroon
           </span>
-          <h1 className="font-grotesk font-bold text-[50px]  mt-2 leading-none ">
-            .NET Community Conference 2025 | 8th edition
+          <h1 className="font-[Space_Grotesk] font-bold text-[26px] md:text-[45px] leading-none ">
+            .NET Community Conference <br />2025 | 8th edition
           </h1>
-          <p className="font-light font-lexend text-[24px] ">
+          <p className="font-light font-lenx text-[20px] leading-none">
             Join hundreds of passionate developers for a day dedicated to the
             .NET ecosystem. Share your experiences and let&apos;s build the
             future of development together.
@@ -83,7 +83,7 @@ export default function Hero() {
               <span className="text-[18px] leading-[160%] tracking-normal text-[#512BD4] font-bold  ">
                 Black coffee
               </span>
-              <p className="font-lenx font-light text-[14px] tracking-normal leading-[120%]">
+              <p className="font-lexend font-light text-[14px] tracking-normal leading-[120%]">
                 Location
               </p>
             </div>
@@ -91,7 +91,7 @@ export default function Hero() {
               <span className="text-[18px] leading-[160%] tracking-normal text-[#512BD4] font-bold">
                 +12
               </span>
-              <p className="font-lenx font-light text-[14px] leading-[120%]">
+              <p className="font-lexend font-light text-[14px] leading-[120%]">
                 Speakers
               </p>
             </div>
@@ -109,7 +109,7 @@ export default function Hero() {
         </div>
 
         {/* Left */}
-        <div className=" mt-30 ">
+        <div className="md:mt-30 md:ml-8 mb-10 sm:mb-0 mt-10 ">
           <div>
             <div className="">
               <div className="bg-[#512BD4] w-[120px] h-[31px] rounded-[12px] px-5 py-2.5  border-2 borer-[4px] border-[#FFFFFF] border-[4px]text-[16px] leanding-[160%] text-white tracking-[-4%] font-grotesk font-bold  items-center justify-center rotate-4 flex">

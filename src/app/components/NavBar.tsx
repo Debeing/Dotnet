@@ -31,7 +31,7 @@ export function Navbar() {
           </div>
 
           {/* Centered Navigation */}
-          <nav className={`hidden md:flex justify-center gap-6  text-sm font-lenxend `}>
+          <nav className={`hidden md:flex justify-center gap-6  text-sm font-lexend `}>
             {tabs.map((tab, index) => (
               <Link
                 className={`${index === 0 && "font-bold"}`}
