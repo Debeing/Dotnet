@@ -1,62 +1,140 @@
-import React from 'react'
-import { Button } from "@/components/ui/button";
+"use client";
 
-function Hero() {
+import { Button } from "@/components/ui/button";
+import { useState, useEffect, useCallback, useMemo } from "react";
+
+interface TimeRemaining {
+  days: number;
+  hours: number;
+  minutes: number;
+  seconds: number;
+}
+
+export default function Hero() {
+  const targetDate = useMemo(
+    () => new Date("2025-11-12T00:00:00").getTime(),
+    []
+  );
+  const calculateTimeRemaining = useCallback((): TimeRemaining => {
+    const now = new Date().getTime();
+    const distance = targetDate - now;
+
+    if (distance <= 0) {
+      return { days: 0, hours: 0, minutes: 0, seconds: 0 };
+    }
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor(
+      (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    );
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    return { days, hours, minutes, seconds };
+  }, [targetDate]);
+
+  const [timeLeft, setTimeLeft] = useState<TimeRemaining>(
+    calculateTimeRemaining()
+  );
+
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+    const timer = setInterval(() => {
+      setTimeLeft(calculateTimeRemaining());
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, [calculateTimeRemaining]);
+
+  if (!isClient) {
+    return null;
+  }
+
   return (
-   <div className=" max-w-6xl mx-auto mt-16  grid grid-cols-2 items-center ">
-        <div className="max-w-[600px]">
-          <span className="border rounded-24 p-1 leading-[120%] font-light font-lenx size-6 w-fit">Must-attend tech event for the Microsoft Ecosystem in Cameroon</span>
-          <h1 className="font-grotesk font-bold leading-[110%] tracking-[-8%] text-[40px] mt-0.5 ">
-            .NET Community Conference <br /> 2025 | 8th edition
+    <section className=" max-w-6xl mx-auto lg:px-8">
+      <div className="mt-16  flex flex-col-reverse sm:flex-row">
+        
+        {/* Right */}
+        <div className="sm:{max-w-6xl px-4 } ">
+          <span className="border rounded-3xl p-1 font-light font-lenx ">
+            Must-attend tech event for the Microsoft Ecosystem in Cameroon
+          </span>
+          <h1 className="font-grotesk font-bold text-[50px]  mt-2 leading-none ">
+            .NET Community Conference 2025 | 8th edition
           </h1>
-          <p className="font-light font-lenx leading-[140%] tracking-normal">
-            Join hundreds of passionate developers for a day dedicated to the .NET ecosystem. Share your experiences and let&apos;s build the future of development together.
+          <p className="font-light font-lexend text-[24px] ">
+            Join hundreds of passionate developers for a day dedicated to the
+            .NET ecosystem. Share your experiences and let&apos;s build the
+            future of development together.
           </p>
+
           <div className="flex  mt-[35px]">
             <div className="pr-4 ">
-              <span className="text-[18px] leading-[160%] tracking-normal text-[#512BD4] font-bold">100 places</span>
-              <p className="font-lenx font-light text-[14px] leading-[120%]">Available</p>
+              <span className="text-[18px] leading-[160%] tracking-normal text-[#512BD4] font-bold">
+                100 places
+              </span>
+              <p className="font-lenx font-light text-[14px] leading-[120%]">
+                Available
+              </p>
             </div>
-             <div className="border-l-2 px-4">
-              <span className="text-[18px] leading-[160%] tracking-normal text-[#512BD4] font-bold  ">Black coffee</span>
-              <p className="font-lenx font-light text-[14px] tracking-normal leading-[120%]">Location</p>
+            <div className="border-l-2 px-4">
+              <span className="text-[18px] leading-[160%] tracking-normal text-[#512BD4] font-bold  ">
+                Black coffee
+              </span>
+              <p className="font-lenx font-light text-[14px] tracking-normal leading-[120%]">
+                Location
+              </p>
             </div>
             <div className=" border-l-2 px-4">
-              <span className="text-[18px] leading-[160%] tracking-normal text-[#512BD4] font-bold">+12</span>
-              <p className="font-lenx font-light text-[14px] leading-[120%]">Speakers</p>
+              <span className="text-[18px] leading-[160%] tracking-normal text-[#512BD4] font-bold">
+                +12
+              </span>
+              <p className="font-lenx font-light text-[14px] leading-[120%]">
+                Speakers
+              </p>
             </div>
           </div>
 
           {/* Button */}
           <div className="gap-3 flex">
-            <Button className="mt-8 bg-[#0A855F] text-white hover:bg-[#4219b8] px-5 py-2.5 w-[195px] h-[54px] rounded-[13px] font-grotesk font-bold text-[13px] leading-[160%] tracking-normal text-center ">
+            <Button className="mt-8 bg-[#0A855F] text-white hover:bg-[#4219b8] px-6 py-3.5 w-[195px] h-[54px] rounded-[13px] font-grotesk font-bold text-[13px] leading-[160%] tracking-normal text-center ">
               Subscribe to event
             </Button>
-            <Button className="mt-8 bg-[#FFFFFF] text-black hover:bg-[#FFFFFF] border border-[#DDDDDD] px-5 py-2.5 w-[140px] h-[54px] rounded-[13px] font-grotesk font-bold text-[13px] gap-4 leading-[160%] tracking-normal text-center ">
+            <Button className="mt-8 bg-[#FFFFFF] text-black hover:bg-[#FFFFFF] border border-[#DDDDDD] px-6 py-3.5 w-[140px] h-[54px] rounded-[13px] font-grotesk font-bold text-[13px] gap-2.5 leading-[160%] tracking-normal text-center ">
               Share event
             </Button>
           </div>
         </div>
+
         {/* Left */}
-        <div className=" flex justify-end">
-          <div className="" >
+        <div className=" mt-30 ">
+          <div>
             <div className="">
-              <div className="bg-[#512BD4] w-[120px] h-[31px] rounded-[12px] px-5 py-2.5  border-2 borer-[4px] border-[#FFFFFF] border-[4px]text-[14px] leanding-[160%] text-white tracking-[-4%] font-grotesk font-bold items-center justify-center rotate-4 flex">
+              <div className="bg-[#512BD4] w-[120px] h-[31px] rounded-[12px] px-5 py-2.5  border-2 borer-[4px] border-[#FFFFFF] border-[4px]text-[16px] leanding-[160%] text-white tracking-[-4%] font-grotesk font-bold  items-center justify-center rotate-4 flex">
                 Time left
               </div>
             </div>
 
-            <div className="bg-[#E1A325] w-[340px] h-[65px] rounded-[12px] p-5 flex items-center ">
-              <h1 className="text-[30px] font-grotesk font-bold leading-[110%] tracking-[-8%] text-center align-center text-[#2D2006]">2 Days : <span className="font-light text-[30px] leading-[160%]  tracking-[-1.55%]"> 12 min : 33 s</span></h1>
+            <div className="bg-[#E1A325] w-[370px] h-[65px] rounded-[12px] p-5 flex items-center ">
+              <h1 className="text-[30px] font-grotesk font-bold leading-[110%] tracking-[-8%] text-center align-center text-[#2D2006]">
+                {timeLeft.days} Days :{" "}
+                <span className="font-light text-[20px] leading-[160%]  tracking-[-1.55%]">
+                  {timeLeft.hours} hours : {timeLeft.minutes} min :{" "}
+                  {timeLeft.seconds} s
+                </span>
+              </h1>
             </div>
 
             <div className="flex justify-end ">
-              <div className="bg-[#0A855F] w-[226px] h-[31px] text-white z-12 rounded-[12px]  border-2 border-white  font-grotesk text-[16px] leading-[160%]tracking-normal items-center text-center justify-center -rotate-6">Date <span className="font-bold">November 12, 2025</span></div>
+              <div className="bg-[#0A855F] w-[226px] font- h-[31px] text-white z-12 rounded-[12px] border-2 border-white text-[16px] leading-[160%]tracking-normal items-center text-center justify-center -rotate-6 font-grotesk">
+                Date <span className="font-bold">November 12, 2025</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
-  )
+    </section>
+  );
 }
-
-export default Hero
