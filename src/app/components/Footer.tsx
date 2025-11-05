@@ -3,11 +3,8 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="max-w-6xl mx-auto px-6">
-      {/* Section principale */}
+    <footer className="max-w-6xl mx-auto mt-10 md:mt-20 mb-5 px-6">
       <div className="flex flex-col md:flex-row justify-between gap-10 md:gap-20">
-        
-        {/* Logo + description */}
         <div className="flex flex-col w-full md:w-[300px] gap-3">
           <Link href="/">
             <Image
@@ -24,9 +21,7 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Grille des colonnes */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-30 w-full md:w-auto">
-          {/* Navigation */}
+        <div className="grid grid-cols-3 sm:grid-cols-3 lg:grid-cols-4  md:w-auto">
           <div>
             <h3 className="font-bold mb-3">Navigation</h3>
             <ul className="space-y-1">
@@ -53,8 +48,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contacts */}
-          <div>
+          <div className="order-3">
             <h3 className="font-bold mb-3">Contacts</h3>
             <ul className="space-y-1  text-[#575362]">
               <li>Douala, Cameroon</li>
@@ -63,8 +57,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Social */}
-          <div>
+          <div className="order-2">
             <h3 className="font-bold mb-3">Social</h3>
             <ul className="space-y-1 text-[#575362]">
               <li>Discord</li>
@@ -74,9 +67,8 @@ export default function Footer() {
               <li>GitHub</li>
             </ul>
           </div>
-
-          {/* Boutons */}
-          <div className="flex flex-col gap-4 mt-5">
+        </div>
+        <div className="gap-4 flex flex-row md:flex-col">
             <button className="w-full md:w-[190px] h-[50px] rounded-[13px] bg-[#0A855F] text-white font-['Space_Grotesk'] text-[16px] font-semibold">
               Subscribe to event
             </button>
@@ -84,13 +76,10 @@ export default function Footer() {
               Share event
             </button>
           </div>
-        </div>
       </div>
 
-      {/* Ligne de séparation */}
       <div className="border-t border-[#DDDDDD] my-8"></div>
 
-      {/* Bas de page */}
       <div className="flex justify-center items-center text-center font-[Lexend] font-light text-[14px] text-[#575362]">
         <p>
           Copyright © .NET Cameroun 2025 | Designed by

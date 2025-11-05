@@ -53,24 +53,24 @@ export default function Hero() {
   }
 
   return (
-    <section className=" max-w-6xl mx-auto lg:px-8">
-      <div className="mt-16  flex flex-col-reverse sm:flex-row">
+    <section className=" max-w-7xl mx-auto px-3 lg:px-8">
+      <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 lg:items-center gap-y-6">
         
         {/* Right */}
-        <div className="sm:{max-w-6xl px-4 } ">
+        <div className="order-2 lg:order-1 w-full col-span-1">
           <span className="border rounded-2xl text-[11px] font-light font-grotesk">
             Must-attend tech event for the Microsoft Ecosystem in Cameroon
           </span>
-          <h1 className="font-[Space_Grotesk] font-bold text-[26px] md:text-[45px] leading-none ">
-            .NET Community Conference <br />2025 | 8th edition
+          <h1 className="font-[Space_Grotesk] font-bold text-[26px] md:text-[40px]">
+            .NET Community Conference 2025 | 8th edition
           </h1>
-          <p className="font-light font-lenx text-[20px] leading-none">
+          <p className="font-light font-lenx text-[18px]">
             Join hundreds of passionate developers for a day dedicated to the
             .NET ecosystem. Share your experiences and let&apos;s build the
             future of development together.
           </p>
 
-          <div className="flex  mt-[35px]">
+          <div className="flex justify-center mt-[35px]">
             <div className="pr-4 ">
               <span className="text-[18px] leading-[160%] tracking-normal text-[#512BD4] font-bold">
                 100 places
@@ -98,29 +98,28 @@ export default function Hero() {
           </div>
 
           {/* Button */}
-          <div className="gap-3 flex">
-            <Button className="mt-8 bg-[#0A855F] text-white hover:bg-[#4219b8] px-6 py-3.5 w-[195px] h-[54px] rounded-[13px] font-grotesk font-bold text-[13px] leading-[160%] tracking-normal text-center ">
+          <div className="gap-3 flex flex-col sm:flex-row">
+            <Button className="mt-8 bg-[#0A855F] text-white hover:bg-[#4219b8] px-6 py-3.5 w-full h-[54px] rounded-[13px] font-grotesk font-bold text-[13px] leading-[160%] tracking-normal text-center ">
               Subscribe to event
             </Button>
-            <Button className="mt-8 bg-[#FFFFFF] text-black hover:bg-[#FFFFFF] border border-[#DDDDDD] px-6 py-3.5 w-[140px] h-[54px] rounded-[13px] font-grotesk font-bold text-[13px] gap-2.5 leading-[160%] tracking-normal text-center ">
+            <Button className=" bg-[#FFFFFF] text-black hover:bg-[#FFFFFF] border border-[#DDDDDD] px-6 py-3.5 w-full h-[54px] rounded-[13px] font-grotesk font-bold text-[13px] gap-2.5 leading-[160%] tracking-normal text-center ">
               Share event
             </Button>
           </div>
         </div>
 
         {/* Left */}
-        <div className="md:mt-30 md:ml-8 mb-10 sm:mb-0 mt-10 ">
-          <div>
-            <div className="">
+        <div className="order-1 col-span-1 lg:order-2 flex justify-end">
+          <div className="w-full lg:w-fit flex flex-col">
+            
               <div className="bg-[#512BD4] w-[120px] h-[31px] rounded-[12px] px-5 py-2.5  border-2 borer-[4px] border-[#FFFFFF] border-[4px]text-[16px] leanding-[160%] text-white tracking-[-4%] font-grotesk font-bold  items-center justify-center rotate-4 flex">
                 Time left
               </div>
-            </div>
 
-            <div className="bg-[#E1A325] w-[370px] h-[65px] rounded-[12px] p-5 flex items-center ">
-              <h1 className="text-[30px] font-grotesk font-bold leading-[110%] tracking-[-8%] text-center align-center text-[#2D2006]">
+            <div className="bg-[#E1A325] w-full rounded-[12px] px-5.5 py-5 flex ">
+              <h1 className="text-[23px] lg:text-[34px] font-grotesk font-bold leading-[110%] tracking-[-8%] text-center align-center text-[#2D2006]">
                 {timeLeft.days} Days :{" "}
-                <span className="font-light text-[20px] leading-[160%]  tracking-[-1.55%]">
+                <span className="font-light leading-[160%]  tracking-[-1.55%]">
                   {timeLeft.hours} hours : {timeLeft.minutes} min :{" "}
                   {timeLeft.seconds} s
                 </span>

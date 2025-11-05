@@ -5,15 +5,15 @@ export default function Contributor() {
   return (
     <div className=" max-w-6xl mx-auto mt-10 mb-[100px]">
       <div className="items-center w-full justify-between z-10 bg-white/95 px-4">
-        <div className="w-[528px] mb-12">
-          <h2 className="text-[44px] font-grotesk">Contributors</h2>
+        <div className="">
+          <h2 className="text-[44px] font-bold font-grotesk">Contributors</h2>
           <p className="font-lenx text-[15px] leading-[140%] font-light">
             Thank you to everyone who makes this event possible.
           </p>
         </div>
         <div
           className="  justify-center mt-5 grid
-                 grid-cols-4 divide-x text-justify gap-2 mb-2"
+                 grid-cols-2 md:grid-cols-4 divide-x text-justify gap-2 mb-2"
         >
           <div className="px-4">
             <div className="">
@@ -71,7 +71,7 @@ export default function Contributor() {
           <div className="max-w-6xl mx-auto border border-[#DDDDDD] opacity-100 rotate-0"></div>
 
           <div className=" justify-center mt-4 grid
-                 grid-cols-4 divide-x text-justify gap-2">
+                 grid-cols-2 md:grid-cols-4 divide-x text-justify gap-2">
             <div className="px-4">
             <div className="">
               <Image

@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Archives() {
   return (
     <div className="w-full">
-        <div className="max-w-6xl mx-auto flex justify-center items-center gap-6 mt-10 ">
+        <div className="max-w-7xl mx-auto flex justify-center items-center gap-6 mt-10 ">
             <div className="">
                 <h1 className="font-grotesk font-black leading-[110%] tracking-[-8%] text-[20px] mt-0.5">They were there <br /><span className="text-[#512BD4]">last year.</span></h1>
                 <p className="font-[Lexend] font-light text-[14px] leading-[140%] tracking-normal ">
