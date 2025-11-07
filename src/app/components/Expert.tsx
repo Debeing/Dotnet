@@ -4,7 +4,7 @@ export default function Expert() {
   return (
     <div className="m-3 w-wull h-440 bg-[#1F143B] mt-10 rounded-2xl">
       <div className="max-w-7xl mx-auto  ">
-        <div className="font-['Space_Grotesk'] font-bold text-[25px] leading-[110%] tracking-[-0.08em]">
+        <div className="font-['Space_Grotesk'] font-bold text-[30px] leading-[110%] tracking-[-0.08em]">
           <span className="text-[#FFFFFF]">Renowned experts to</span> <br />
           <span className="text-[#8B6BF8]">inspire you</span>
         </div>
@@ -95,7 +95,7 @@ export default function Expert() {
               </div>
             </div>
           </div>
-          <div className="max-w-6xl mx-auto mt-4 grid grid-cols-4 gap-6">
+          <div className="max-w-7xl mx-auto mt-4 grid grid-cols-4 gap-6">
             <div className=" h-80 bg-[#1F143B] relative">
               <div className=" h-70 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                 <Image
@@ -183,8 +183,8 @@ export default function Expert() {
           </div>
         </div>
         {/*  deuxieme div */}
-        <div className="relative bg-[url(/imgbag.png)] bg-cover bg-no-repeat bg-center max-w-6xl mx-auto h-[558px] rounded-2xl mt-10">
-          <div className="absolute bottom-0 left-0 m-6 w-[560px] h-[290px] rounded-[18px] bg-[#FFFFFF] shadow-lg  items-center justify-center">
+        <div className="relative bg-[url(/imgbag.png)] bg-cover bg-no-repeat bg-center max-w-7xl mx-auto h-[558px] rounded-2xl mt-10">
+          <div className="flex-none absolute bottom-0 left-0 m-6  h-[290px] rounded-[18px] bg-[#FFFFFF] shadow-lg  items-center justify-center">
             <div className="w-[500px] h-[133px] mt-5 m-5">
               <h1 className="font-['Space_Grotesk'] font-black leading-none text-[28px] ">
                 <span className="text-[#512BD4] ">

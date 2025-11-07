@@ -4,16 +4,16 @@ export default function WhyCome() {
   return (
     <div className=" max-w-7xl mx-auto mt-10 mb-[50px] ">
       <div className="items-center w-full justify-between z-10 bg-white/95 px-4">
-        <div className="w-[500px]  mb-12 ">
-          <h2 className="text-[40px] font-grotesk">
+        <div className="w-[500px] mb-12 ">
+          <h2 className="text-[36px] md:text-[40px] font-grotesk">
             Why come,{" "}
             <span className="text-[#512BD4] font-black leading-[110%] tracking-[-8%] ">
               why now?
             </span>
           </h2>
-          <p className="font-lenx text-[15px] leading-[140%] font-light">
+          <p className="font-lenx text-[12px] md:[15px] font-light">
             Much more than a conference, it is a learning experience, a chance
-            to <br />
+            to 
             share and discover opportunities that can transform your career.
           </p>
         </div>
