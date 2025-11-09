@@ -1,6 +1,5 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
 import { useState, useEffect, useCallback, useMemo } from "react";
 
 interface TimeRemaining {
@@ -70,7 +69,7 @@ export default function Hero() {
             future of development together.
           </p>
 
-          <div className="flex justify-center mt-[35px]">
+          <div className="w-full flex justify-center mt-[35px]">
             <div className="pr-4 ">
               <span className="text-[18px] leading-[160%] tracking-normal text-[#512BD4] font-bold">
                 100 places

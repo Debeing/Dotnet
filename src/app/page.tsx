@@ -4,9 +4,9 @@ import Expert from "./components/Expert";
 import Footer from "./components/Footer";
 import  { Navbar } from "./components/NavBar"
 import Planing from "./components/Planing";
-import Teams from "./components/Member";
 import WhyCome from "./components/WhyCome";
 import Hero from "./components/Hero";
+import They from "./components/They";
 
 
 
@@ -19,6 +19,7 @@ export default function Home() {
        <Planing/>
        <Expert/>
       <Contributor/>
+      <They/>
       <Archives/>
       <Footer/>
     </main>

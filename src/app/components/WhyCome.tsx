@@ -18,10 +18,10 @@ export default function WhyCome() {
           </p>
         </div>
         <div
-          className="  justify-center mt-5 grid grid-cols-2
+          className=" w-full justify-center mt-5 grid grid-cols-2
                  md:grid-cols-4  gap-2"
         >
-          <div className="px-4">
+          <div className="">
             <HandFist className=" text-[#512BD4]"/>
             <h2 className="font-bold font-grotesk text-[17px] leading-[110%] mt-3 text-[#512BD4]">
               Boost your career
@@ -31,7 +31,7 @@ export default function WhyCome() {
               coaching, resume or LinkedIn profile reviews.
             </p>
           </div>
-          <div className=" px-4">
+          <div className="">
             <BookOpenText />
             <h2 className="font-bold font-grotesk text-[18px] leading-[110%] mt-3">
               Learn by doing
@@ -40,7 +40,8 @@ export default function WhyCome() {
               Guided workshops and labs allow you to code, test, and experiment.{" "}
             </p>
           </div>
-          <div className=" px-4">
+          
+          <div className="">
             <UserRound />
             <h2 className="font-bold font-grotesk text-[18px] leading-[110%] mt-3">
               Meet the ecosystem
@@ -50,7 +51,7 @@ export default function WhyCome() {
               and find new collaborators or professional opportunities.
             </p>
           </div>
-          <div className="  px-4">
+          <div className="">
             <RefreshCcw />
             <h2 className="font-bold font-grotesk text-[18px] leading-[110%] mt-3">
               Stay up to date
