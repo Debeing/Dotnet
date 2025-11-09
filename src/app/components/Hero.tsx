@@ -54,11 +54,11 @@ export default function Hero() {
 
   return (
     <section className=" max-w-7xl mx-auto px-3 lg:px-8">
-      <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 lg:items-center gap-y-6">
+      <div className="mt-16 flex flex-col-reverse lg:flex-row lg:gap-0">
         
         {/* Right */}
-        <div className="order-2 lg:order-1 w-full col-span-1">
-          <span className="border rounded-2xl text-[11px] font-light font-grotesk">
+        <div className="w-full md:w-1/2 relative ">
+          <span className="border rounded-2xl text-[9px] font-light font-grotesk">
             Must-attend tech event for the Microsoft Ecosystem in Cameroon
           </span>
           <h1 className="font-[Space_Grotesk] font-bold text-[26px] md:text-[40px]">
@@ -98,18 +98,18 @@ export default function Hero() {
           </div>
 
           {/* Button */}
-          <div className="gap-3 flex flex-col sm:flex-row">
-            <Button className="mt-8 bg-[#0A855F] text-white hover:bg-[#4219b8] px-6 py-3.5 w-full h-[54px] rounded-[13px] font-grotesk font-bold text-[13px] leading-[160%] tracking-normal text-center ">
+          <div className="w-full  mt-5 relative gap-2 flex flex-col md:flex-row">
+            <button className="px-10 py-3.5 rounded-[13px] font-grotesk font-bold text-[16px]   bg-[#0A855F] text-white hover:bg-[#000000] ">
               Subscribe to event
-            </Button>
-            <Button className=" bg-[#FFFFFF] text-black hover:bg-[#FFFFFF] border border-[#DDDDDD] px-6 py-3.5 w-full h-[54px] rounded-[13px] font-grotesk font-bold text-[13px] gap-2.5 leading-[160%] tracking-normal text-center ">
+            </button>
+            <button className=" bg-[#FFFFFF] text-black hover:bg-[#FFFFFF] border border-[#DDDDDD] px-6 py-3.5  rounded-[13px] font-grotesk font-bold text-[16px] gap-2.5 leading-[160%] tracking-normal text-center ">
               Share event
-            </Button>
+            </button>
           </div>
         </div>
 
         {/* Left */}
-        <div className="order-1 col-span-1 lg:order-2 flex justify-end">
+        <div className="w-full md:w-1/2 order-1 col-span-1 lg:order-2 flex justify-end">
           <div className="w-full lg:w-fit flex flex-col">
             
               <div className="bg-[#512BD4] w-[120px] h-[31px] rounded-[12px] px-5 py-2.5  border-2 borer-[4px] border-[#FFFFFF] border-[4px]text-[16px] leanding-[160%] text-white tracking-[-4%] font-grotesk font-bold  items-center justify-center rotate-4 flex">
@@ -117,7 +117,7 @@ export default function Hero() {
               </div>
 
             <div className="bg-[#E1A325] w-full rounded-[12px] px-5.5 py-5 flex ">
-              <h1 className="text-[23px] lg:text-[34px] font-grotesk font-bold leading-[110%] tracking-[-8%] text-center align-center text-[#2D2006]">
+              <h1 className="text-[20px] lg:text-[34px] font-grotesk font-bold leading-[110%] tracking-[-8%] text-center align-center text-[#2D2006]">
                 {timeLeft.days} Days :{" "}
                 <span className="font-light leading-[160%]  tracking-[-1.55%]">
                   {timeLeft.hours} hours : {timeLeft.minutes} min :{" "}

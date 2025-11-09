@@ -63,7 +63,7 @@ export function Navbar() {
                   {tab.label}
                 </Link>
               ))}
-
+              
             </div>
           </div>
         </div>

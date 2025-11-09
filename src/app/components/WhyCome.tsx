@@ -5,28 +5,27 @@ export default function WhyCome() {
     <div className=" max-w-7xl mx-auto mt-10 mb-[50px] ">
       <div className="items-center w-full justify-between z-10 bg-white/95 px-4">
         <div className="w-[500px] mb-12 ">
-          <h2 className="text-[36px] md:text-[40px] font-grotesk">
+          <h2 className="text-[32px] md:text-[40px] font-grotesk">
             Why come,{" "}
             <span className="text-[#512BD4] font-black leading-[110%] tracking-[-8%] ">
               why now?
             </span>
           </h2>
-          <p className="font-lenx text-[12px] md:[15px] font-light">
+          <p className="font-lenx text-[12px] ">
             Much more than a conference, it is a learning experience, a chance
-            to 
-            share and discover opportunities that can transform your career.
+            to share and discover opportunities that 
+            can transform your career.
           </p>
         </div>
         <div
           className="  justify-center mt-5 grid grid-cols-2
-                 md:grid-cols-4  divide-x text-justify gap-2"
+                 md:grid-cols-4  gap-2"
         >
           <div className="px-4">
-            <HandFist />
+            <HandFist className=" text-[#512BD4]"/>
             <h2 className="font-bold font-grotesk text-[17px] leading-[110%] mt-3 text-[#512BD4]">
               Boost your career
             </h2>
-
             <p className="text-[16px] ">
               Relevant content: real-life feedback, best practices, career
               coaching, resume or LinkedIn profile reviews.
