@@ -1,6 +1,6 @@
 export default function They() {
   return (
-    <div className="max-w-7xl mx-auto lg:px-8">
+    <div className="max-w-7xl mx-auto lg:px-8 mt-10">
       <div className="ml-0 lg:ml-[calc((100%-80rem)/2)] lg:pl-8 space-y-6">
         <div className=" sm:max-w-lg ">
           <h1 className="font-grotesk text-[44px] leading-none font-bold">
