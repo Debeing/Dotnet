@@ -56,7 +56,7 @@ export function Navbar() {
             <button onClick={()=>setIsOpen(prev=>!prev)}>
              { isOpen?<X />:<Menu />}
             </button>
-            <div className={`${isOpen?"block":"hidden"} bg-white absolute top-16 right-2 w-48 px-4 py-1`}>
+            <div className={`${isOpen?"block":"hidden"} bg-white  top-16 right-2 w-100 px-4 py-1`}>
               {tabs.map((tab, index) =>(
                 <Link className="flex" href={tab.link}
                 key={index}>

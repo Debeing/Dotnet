@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="max-w-6xl mx-auto mt-10 md:mt-20 mb-5 px-6">
+    <footer className="max-w-7xl mx-auto mt-10 md:mt-20 mb-5 px-6">
       <div className="flex flex-col md:flex-row justify-between gap-10 md:gap-20">
         <div className="flex flex-col w-full md:w-[300px] gap-3">
           <Link href="/">
@@ -50,10 +50,10 @@ export default function Footer() {
 
           <div className="order-3">
             <h3 className="font-bold mb-3">Contacts</h3>
-            <ul className="space-y-1  text-[#575362]">
-              <li>Douala, Cameroon</li>
+            <ul className=" text-[#575362]">
+              <li>Douala Cameroon</li>
               <li>dotnetcameroon@outlook.com</li>
-              <li>+237 699254549, +237 653953452</li>
+              <li>+237 699254549 +237 653953452</li>
             </ul>
           </div>
 
