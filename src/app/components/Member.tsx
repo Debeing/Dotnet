@@ -29,7 +29,7 @@ export default function Member() {
   ]
 
   return (
-    <div className="flex gap-2 h-[362px] flex-nowrap overflow-auto no-scrollbar mt-10 box-border">
+    <div className="max-w-7xl mx-auto px-3 lg:px-8 flex gap-2 h-[362px] flex-nowrap overflow-auto no-scrollbar mt-28 box-border">
       {
         memberImage.map(({ file, alt }, index) => {
           return (

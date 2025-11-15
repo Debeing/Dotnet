@@ -18,8 +18,8 @@ export function Navbar() {
 
   return (
     <>
-      <header className=" max-w-7xl mx-auto">
-        <div className=" flex items-center gap-2.5 w-full justify-between z-10 bg-white/95 px-4 ">
+      <header className=" max-w-7xl mx-auto mt-2.5 px-3 lg:px-8">
+        <div className=" flex items-center gap-2.5 w-full justify-between z-10 bg-white/95 ">
           {/* Logo (left) */}
           <div className=" ">
             <Link
@@ -56,7 +56,7 @@ export function Navbar() {
             <button onClick={()=>setIsOpen(prev=>!prev)}>
              { isOpen?<X />:<Menu />}
             </button>
-            <div className={`${isOpen?"block":"hidden"} bg-white  top-16 right-2 w-100 px-4 py-1`}>
+            <div className={`${isOpen?"block":"hidden"} bg-white absolute right-4 shadow-lg rounded-lg p-4 w-80 flex flex-col gap-4`}>
               {tabs.map((tab, index) =>(
                 <Link className="flex" href={tab.link}
                 key={index}>

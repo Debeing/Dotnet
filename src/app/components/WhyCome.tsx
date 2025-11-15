@@ -2,23 +2,23 @@ import { BookOpenText, HandFist, RefreshCcw, UserRound } from "lucide-react";
 
 export default function WhyCome() {
   return (
-    <div className=" max-w-7xl mx-auto mt-10 mb-[50px] ">
-      <div className="items-center w-full justify-between z-10 bg-white/95 px-4">
-        <div className="w-[500px] mb-12 ">
-          <h2 className="text-[32px] md:text-[40px] font-grotesk">
+    <div className=" max-w-7xl mx-auto mt-20 px-3 lg:px-8 ">
+      <div className=" w-full justify-between z-10 bg-white/95 ">
+        <div className="mb-12 w-[400px] ">
+          <h2 className="text-[32px] font-grotesk">
             Why come,{" "}
             <span className="text-[#512BD4] font-black leading-[110%] tracking-[-8%] ">
               why now?
             </span>
           </h2>
-          <p className="font-lenx text-[12px] ">
+          <p className="font-lenx text-[14px] ">
             Much more than a conference, it is a learning experience, a chance
             to share and discover opportunities that 
             can transform your career.
           </p>
         </div>
         <div
-          className=" w-full justify-center mt-5 grid grid-cols-2
+          className=" w-full justify-center grid grid-cols-2
                  md:grid-cols-4  gap-2"
         >
           <div className="">

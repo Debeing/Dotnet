@@ -1,16 +1,16 @@
 export default function Planing() {
   return (
-    <div className="md:max-w-6xl mx-auto lg:px-8">
+    <div className="md:max-w-6xl mx-auto px-3 mt-20 lg:px-8">
       <div className="ml-0 lg:ml-[calc((100%-80rem)/2)] lg:pl-8 space-y-6">
         <div className=" sm:max-w-lg ">
-          <h1 className="font-grotesk text-[37px] leading-none text-[#1F143B] font-bold">
+          <h1 className="font-grotesk text-[34px] md:text-[45px] leading-none text-[#1F143B] font-bold">
             An immersive day in the world of .NET
           </h1>
         </div>
 
-        <div className=" flex flex-nowrap gap-6 overflow-auto box-border no-scrollbar">
+        <div className=" flex flex-nowrap gap-6 overflow-auto box-border no-scrollbar mt-5">
           <div className=" w-[270px] shrink-0 font-grotesk">
-            <div className="max-w-sm bg-[#512BD4]  h-[250px] rounded-2xl   p-6">
+            <div className="max-w-sm bg-[#512BD4]  h-[250px] rounded-2xl">
               <p className="w-full h-full justify-center items-center flex font-bold text-[34px] text-[#FFFFFF] ">
                 Key
                 <span className=" text-[#ffffffa4]">note</span>

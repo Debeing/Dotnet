@@ -53,14 +53,14 @@ export default function Hero() {
 
   return (
     <section className=" max-w-7xl mx-auto px-3 lg:px-8">
-      <div className="mt-16 flex flex-col-reverse lg:flex-row lg:gap-0">
+      <div className="mt-43 flex flex-col-reverse lg:flex-row lg:gap-0 gap-8 items-center ">
         
         {/* Right */}
-        <div className="w-full md:w-1/2 relative ">
-          <span className="border rounded-2xl text-[9px] font-light font-grotesk">
+        <div className="w-full md:w-1/2 relative">
+          <span className="border rounded-2xl text-[9.5px] font-light font-grotesk">
             Must-attend tech event for the Microsoft Ecosystem in Cameroon
           </span>
-          <h1 className="font-[Space_Grotesk] font-bold text-[26px] md:text-[40px]">
+          <h1 className="font-[Space_Grotesk] font-bold text-[38px] md:text-[40px] leading-none">
             .NET Community Conference 2025 | 8th edition
           </h1>
           <p className="font-light font-lenx text-[18px]">
@@ -69,7 +69,7 @@ export default function Hero() {
             future of development together.
           </p>
 
-          <div className="w-full flex justify-center mt-[35px]">
+          <div className="w-full flex mt-[35px]">
             <div className="pr-4 ">
               <span className="text-[18px] leading-[160%] tracking-normal text-[#512BD4] font-bold">
                 100 places
@@ -108,7 +108,7 @@ export default function Hero() {
         </div>
 
         {/* Left */}
-        <div className="w-full md:w-1/2 order-1 col-span-1 lg:order-2 flex justify-end">
+        <div className="w-full md:w-1/2 mt-20 order-1 col-span-1 lg:order-2 flex justify-end">
           <div className="w-full lg:w-fit flex flex-col">
             
               <div className="bg-[#512BD4] w-[120px] h-[31px] rounded-[12px] px-5 py-2.5  border-2 borer-[4px] border-[#FFFFFF] border-[4px]text-[16px] leanding-[160%] text-white tracking-[-4%] font-grotesk font-bold  items-center justify-center rotate-4 flex">

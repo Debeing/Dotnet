@@ -102,9 +102,9 @@ export default function Teams() {
 
   return (
     <div className="md:px-2.5 mt-20">
-      <div className="w-full bg-[#1F143B] md:mx-auto  md:py-20 md:px-8 md:rounded-[44px] md:space-y-11">
-        <div className="max-w-[353px]">
-          <h2 className="font-grotesk text-[36px] text-[#FFFFFF] font-bold ">
+      <div className="max-w-7xl mx-auto px-3 lg:px-8 bg-[#1F143B] md:mx-auto md:py-20 md:px-20 md:rounded-[44px] md:space-y-11">
+        <div className="w-[353px]">
+          <h2 className="font-grotesk text-[35px] md:text-[39px] text-[#FFFFFF] font-bold leading-none ">
             Renowned experts{" "}
             <span className="text-[#8B6BF8]">to inspire you</span>
           </h2>
@@ -154,10 +154,10 @@ export default function Teams() {
             </button>
           </div>
           {/*  deuxieme div */}
-          <div className="relative bg-[url(/imgbag.png)] bg-cover bg-no-repeat bg-center min-h-[558px] flex  items-center  rounded-2xl px-2 mt-10">
-            <div className="flex-none md:absolute bottom-0 left-0   h-[290px] rounded-[18px] bg-[#FFFFFF] shadow-lg  items-center justify-center w-full relative">
+          <div className="relative bg-[url(/imgbag.png)] bg-cover bg-no-repeat bg-center min-h-[600px] w-full flex  items-center  rounded-2xl mt-10">
+            <div className=" rounded-[18px] bg-[#FFFFFF] shadow-lg mt-40 md:ml-10 w-[550px]  relative">
               <div className="w-full h-[133px]  md:mt-5 m-5">
-                <h1 className="font-['Space_Grotesk'] font-black leading-none text-[28px] ">
+                <h1 className="font-['Space_Grotesk'] font-black leading-none text-[28px]">
                   <span className="text-[#512BD4] ">
                     {" "}
                     Must-attend tech event for the
@@ -170,8 +170,8 @@ export default function Teams() {
                   aliqua. 
                 </p>
               </div>
-              <div className="w-full min-h-[115px] gap-4 md:gap-8 m-5 ">
-                <div className="flex flex-wrap gap-2">
+              <div className="w-full min-h-[115px] m-5 mt-10 ">
+                <div className=" gap-3 flex flex-wrap">
                   <button className="w-[130px] h-[42px] rounded-[13px] border border-solid opacity-100">
                     <span className="text-[14px] font-['Lexend'] font-light">
                       Subscribe to event
@@ -207,8 +207,8 @@ export default function Teams() {
             </div>
           </div>
           {/* derniere div */}
-          <div className="max-w-[353px]">
-          <h2 className="font-grotesk text-[34px] text-[#FFFFFF] font-bold ">
+          <div className=" mt-20">
+          <h2 className="font-grotesk text-[44px] text-[#FFFFFF] font-bold ">
             Core team{" "}
           </h2>
         </div>

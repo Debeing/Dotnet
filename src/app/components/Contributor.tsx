@@ -3,11 +3,11 @@ import Link from "next/link";
 
 export default function Contributor() {
   return (
-    <div className=" max-w-7xl mx-auto mt-10">
+    <div className=" max-w-7xl mx-auto mt-20 px-3 lg:px-8">
       <div className="items-center w-full justify-between z-10 bg-white/95 px-4">
         <div className="">
           <h2 className="text-[44px] font-bold font-grotesk">Contributors</h2>
-          <p className="font-lenx text-[15px] leading-[140%] font-light">
+          <p className="font-lenx text-[16px] leading-[140%] font-light">
             Thank you to everyone who makes this event possible.
           </p>
         </div>

@@ -7,7 +7,7 @@ export default function Archive_1() {
     { file: "/che.png", alt: "image 1" },
   ];
   return (
-    <div className="w-full m-3 mt-3 flex flex-nowrap gap-4 overflow-auto box-border no-scrollbar">
+    <div className="max-w-7xl mx-auto px-3 lg:px-8 mt-3 flex flex-nowrap gap-4 overflow-auto box-border no-scrollbar">
       {archi.map(({ file, alt }, index) => {
         return (
           <div key={index} className="shrink-0 ">

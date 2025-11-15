@@ -1,14 +1,14 @@
 export default function They() {
   return (
-    <div className="max-w-7xl mx-auto lg:px-8 mt-10">
+    <div className="max-w-7xl mx-auto px-3 lg:px-8 mt-10">
       <div className="ml-0 lg:ml-[calc((100%-80rem)/2)] lg:pl-8 space-y-6">
-        <div className=" sm:max-w-lg ">
-          <h1 className="font-grotesk text-[44px] leading-none font-bold">
+        <div className=" ">
+          <h1 className="font-grotesk text-[38px] md:text-[44px] leading-none font-bold">
             <span className="text-[#1F143B]">They were there </span> <br />
           <span className="text-[#8B6BF8]"> last year.</span>
           </h1>
         </div>
-        <div className="max-w-7xl mx-auto flex flex-nowrap gap-6 overflow-auto box-border no-scrollbar">
+        <div className="max-w-7xl mx-auto flex flex-nowrap gap-6 overflow-auto box-border no-scrollbar mt-5">
           <div className=" w-[270px] shrink-0 font-grotesk">
             <p className="font-[Lexend] font-light text-[16px] leading-[140%] tracking-normal ">
                     An incredible experience! The workshops on .NET 8 and applied AI 
